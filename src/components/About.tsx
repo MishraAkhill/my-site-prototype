@@ -8,13 +8,13 @@ const About = () => {
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face" alt="Akhil Mishra" className="rounded-lg shadow-2xl w-full max-w-md mx-auto" />
+            <img alt="Akhil Mishra" className="rounded-lg shadow-2xl w-full max-w-md mx-auto" src="/lovable-uploads/c5beb29b-619f-423b-93d5-aebed230db92.jpg" />
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-100 rounded-full -z-10"></div>
             <div className="absolute -top-6 -left-6 w-24 h-24 bg-indigo-100 rounded-full -z-10"></div>
           </div>
           
           <div className="space-y-6">
-            <p className="text-lg text-gray-700 leading-relaxed">I Akhil Mishra, a dedicated CA Finalist deeply engaged in Assurance & Business Consulting at a leading CA firm. Beyond financial intricacies, I'm the founder of "Unchained," a not-for-profit committed to societal upliftment. We envision a future where everyone wakes up to a day free from hunger, suffering, abuse, and poverty......</p>
+            <p className="text-lg text-gray-700 leading-relaxed">I Akhil Mishra, a dedicated CA Finalist deeply engaged in Assurance & Business Consulting at a leading CA firm. Beyond financial intricacies, I'm the founder of "Unchained," a not-for-profit committed to societal upliftment. We envision a future where everyone wakes up to a day free from hunger, suffering, abuse, and poverty.</p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
               Outside the corporate world, I'm a road trip enthusiast on my Royal Enfield, 
