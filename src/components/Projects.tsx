@@ -14,20 +14,13 @@ const Projects = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <div className="text-center mb-8">
-              <div className="inline-block p-6 bg-gray-900 rounded-full mb-4">
-                <div className="flex items-center space-x-2">
-                  <div className="w-8 h-8">
-                    <svg viewBox="0 0 100 100" className="w-full h-full text-white">
-                      <path d="M20 30 L40 10 L60 30 L80 10 L80 90 L20 90 Z" fill="currentColor" />
-                      <circle cx="30" cy="50" r="3" fill="currentColor" />
-                      <circle cx="50" cy="60" r="3" fill="currentColor" />
-                      <circle cx="70" cy="45" r="3" fill="currentColor" />
-                    </svg>
-                  </div>
-                </div>
+              <div className="inline-block mb-4">
+                <img 
+                  src="/lovable-uploads/a8747903-49bb-484f-ba3a-2d96fd336904.png" 
+                  alt="Unchained Logo" 
+                  className="w-48 h-auto mx-auto"
+                />
               </div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-2">Unchained</h3>
-              <p className="text-xl text-gray-600 italic">Empowering Lives, Unleashing Potential</p>
             </div>
           </div>
           
