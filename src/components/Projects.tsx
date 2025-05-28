@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Projects = () => {
@@ -15,11 +14,7 @@ const Projects = () => {
           <div className="relative">
             <div className="text-center mb-8">
               <div className="inline-block mb-4">
-                <img 
-                  src="/lovable-uploads/a8747903-49bb-484f-ba3a-2d96fd336904.png" 
-                  alt="Unchained Logo" 
-                  className="w-48 h-auto mx-auto"
-                />
+                {/* Original content without the uploaded logo */}
               </div>
             </div>
           </div>
