@@ -2,12 +2,6 @@ import React from 'react';
 import { Calendar, Briefcase } from 'lucide-react';
 const Career = () => {
   const experiences = [{
-    period: "2018-Present",
-    institution: "The Institute of Chartered Accountants of India",
-    position: "CA-Intermediate Student",
-    description: "Currently Studying at the Institute of Chartered Accountants of India. Having deep interest in understanding the Tax system of India.",
-    isCurrentStudy: true
-  }, {
     period: "2017-2020",
     institution: "University of Delhi",
     subtitle: "Deshbandhu College",
