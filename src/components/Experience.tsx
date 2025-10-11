@@ -91,11 +91,37 @@ const Experience = () => {
           ))}
         </div>
 
-        <div className="mt-16">
-          <h3 className="text-3xl font-bold mb-8 text-center">Testimonials</h3>
-          <p className="text-center text-muted-foreground">
-            Testimonials coming soon...
-          </p>
+        <div className="mt-20">
+          <h3 className="text-3xl font-bold mb-12 text-center">What People Say</h3>
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {/* Manish Choudhary - First */}
+            <div className="bg-card border border-border rounded-lg p-8 hover:shadow-lg transition-all duration-300">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary to-primary/70 flex items-center justify-center text-white text-2xl font-bold mb-4">
+                  MC
+                </div>
+                <p className="text-muted-foreground italic mb-6 leading-relaxed">
+                  "Akhil has been a tremendous asset on the Finance front. He quickly understood our business, brought structure to our financial processes, and was instrumental in getting us ready for fundraising. He's reliable, takes initiative, and has a great sense of what early-stage companies need from their finance function."
+                </p>
+                <h4 className="font-semibold text-lg text-foreground">Manish Choudhary</h4>
+                <p className="text-sm text-primary">CEO at Flexprice</p>
+              </div>
+            </div>
+
+            {/* CA Nikhil Mittal - Second */}
+            <div className="bg-card border border-border rounded-lg p-8 hover:shadow-lg transition-all duration-300">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-secondary to-secondary/70 flex items-center justify-center text-white text-2xl font-bold mb-4">
+                  NM
+                </div>
+                <p className="text-muted-foreground italic mb-6 leading-relaxed">
+                  "Akhil is a real spark! He's got tons of energy and is amazing at connecting with people. He's a valuable asset to any team. He's a great teammate and always goes the extra mile to deliver the best to client. His confident and commendable personality puts them at ease, allowing him to effectively deliver exceptional service."
+                </p>
+                <h4 className="font-semibold text-lg text-foreground">CA Nikhil Mittal</h4>
+                <p className="text-sm text-primary">Sr. Internal Audit Officer | Chartered Accountant</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
