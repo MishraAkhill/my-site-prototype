@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-4">Akhil Mishra</h3>
           <p className="text-gray-400 mb-6">
-            CA Finalist | Philanthropist | Adventurer
+            Business Consultant | Philanthropist | Adventurer
           </p>
           <div className="flex justify-center space-x-6 mb-8">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">

@@ -14,7 +14,7 @@ const About = () => {
           </div>
           
           <div className="space-y-6">
-            <p className="text-lg text-gray-700 leading-relaxed">I Akhil Mishra, a dedicated CA Finalist deeply engaged in Assurance & Business Consulting at a leading CA firm. Beyond financial intricacies, I'm the founder of "Unchained," a not-for-profit committed to societal upliftment. We envision a future where everyone wakes up to a day free from hunger, suffering, abuse, and poverty.</p>
+            <p className="text-lg text-gray-700 leading-relaxed">I Akhil Mishra, a dedicated Business Consultant deeply engaged in Assurance & Business Consulting at a leading CA firm. Beyond financial intricacies, I'm the founder of "Unchained," a not-for-profit committed to societal upliftment. We envision a future where everyone wakes up to a day free from hunger, suffering, abuse, and poverty.</p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
               Outside the corporate world, I'm a road trip enthusiast on my Royal Enfield, 
