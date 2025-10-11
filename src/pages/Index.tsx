@@ -3,7 +3,6 @@ import React from 'react';
 import Navigation from '../components/Navigation';
 import Hero from '../components/Hero';
 import About from '../components/About';
-import Career from '../components/Career';
 import Projects from '../components/Projects';
 import Travel from '../components/Travel';
 import Contact from '../components/Contact';
@@ -15,7 +14,6 @@ const Index = () => {
       <Navigation />
       <Hero />
       <About />
-      <Career />
       <Projects />
       <Travel />
       <Contact />
