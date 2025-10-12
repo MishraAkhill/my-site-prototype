@@ -2,6 +2,7 @@ import React from 'react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import nikhilMittalImg from '@/assets/nikhil-mittal.png';
 import manishChoudharyImg from '@/assets/manish-choudhary.png';
+import unchainedLogo from '@/assets/unchained-logo.png';
 
 const Experience = () => {
   const experiences = [
@@ -56,31 +57,46 @@ const Experience = () => {
               key={index}
               className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-6">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">
-                    {exp.title}
-                  </h3>
-                  <p className="text-xl text-blue-600 font-semibold mb-2">
-                    {exp.company}
-                  </p>
-                  <p className="text-gray-600">
-                    {exp.location}
-                  </p>
+              <div className="flex gap-8">
+                {/* Logo section - only for Unchained */}
+                {exp.company === "Unchained" && (
+                  <div className="hidden md:flex items-start flex-shrink-0">
+                    <img 
+                      src={unchainedLogo} 
+                      alt="Unchained Logo" 
+                      className="w-32 h-32 object-contain"
+                    />
+                  </div>
+                )}
+                
+                <div className="flex-1">
+                  <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-6">
+                    <div>
+                      <h3 className="text-2xl font-bold text-gray-900 mb-2">
+                        {exp.title}
+                      </h3>
+                      <p className="text-xl text-blue-600 font-semibold mb-2">
+                        {exp.company}
+                      </p>
+                      <p className="text-gray-600">
+                        {exp.location}
+                      </p>
+                    </div>
+                    <span className="text-gray-500 font-medium whitespace-nowrap">
+                      {exp.period}
+                    </span>
+                  </div>
+                  
+                  <ul className="space-y-3">
+                    {exp.description.map((item, i) => (
+                      <li key={i} className="text-gray-700 flex gap-3 leading-relaxed">
+                        <span className="text-blue-600 font-bold mt-1">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-                <span className="text-gray-500 font-medium whitespace-nowrap">
-                  {exp.period}
-                </span>
               </div>
-              
-              <ul className="space-y-3">
-                {exp.description.map((item, i) => (
-                  <li key={i} className="text-gray-700 flex gap-3 leading-relaxed">
-                    <span className="text-blue-600 font-bold mt-1">•</span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
             </div>
           ))}
         </div>
