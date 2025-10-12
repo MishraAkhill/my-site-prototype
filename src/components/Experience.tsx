@@ -1,6 +1,7 @@
 import React from 'react';
 import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import nikhilMittalImg from '@/assets/nikhil-mittal.png';
+import manishChoudharyImg from '@/assets/manish-choudhary.png';
 
 const Experience = () => {
   const experiences = [
@@ -90,9 +91,10 @@ const Experience = () => {
             {/* Manish Choudhary - First */}
             <div className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300">
               <div className="flex flex-col items-center text-center">
-                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center text-white text-2xl font-bold mb-6 shadow-md">
-                  MC
-                </div>
+                <Avatar className="w-24 h-24 mb-6 shadow-md">
+                  <AvatarImage src={manishChoudharyImg} alt="Manish Choudhary" className="object-cover" />
+                  <AvatarFallback className="bg-gradient-to-br from-blue-600 to-indigo-600 text-white text-2xl font-bold">MC</AvatarFallback>
+                </Avatar>
                 <p className="text-gray-700 italic mb-6 leading-relaxed text-lg">
                   "Akhil has been a tremendous asset on the Finance front. He quickly understood our business, brought structure to our financial processes, and was instrumental in getting us ready for fundraising. He's reliable, takes initiative, and has a great sense of what early-stage companies need from their finance function."
                 </p>
