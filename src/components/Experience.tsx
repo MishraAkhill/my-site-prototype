@@ -3,6 +3,8 @@ import { Avatar, AvatarImage, AvatarFallback } from '@/components/ui/avatar';
 import nikhilMittalImg from '@/assets/nikhil-mittal.png';
 import manishChoudharyImg from '@/assets/manish-choudhary.png';
 import unchainedLogo from '@/assets/unchained-logo.png';
+import flexpriceLogo from '@/assets/flexprice-logo.png';
+import snbLogo from '@/assets/snb-logo.png';
 
 const Experience = () => {
   const experiences = [
@@ -11,7 +13,7 @@ const Experience = () => {
       company: "Flexprice",
       period: "Sep 2024 - Present · 1 yr 2 mos",
       location: "Gurugram, Haryana, India",
-      logo: null,
+      logo: flexpriceLogo,
       description: [
         "Leading fund raise",
         "Financial planning, cash flow management, and unit economics",
@@ -37,7 +39,7 @@ const Experience = () => {
       company: "Sahni Natarajan & Bahl · Full-time",
       period: "Jul 2022 - Jul 2025 · 3 yrs 1 mo",
       location: "Delhi, India",
-      logo: null,
+      logo: snbLogo,
       description: [
         "Led audits for Indian corporates and MNCs in FMCG and startup sectors",
         "Covered Finance & Accounts, P2P, O2C, I2C, Payroll, T&E, Distribution Centers, Revenue Validation, and Provident Funds",
