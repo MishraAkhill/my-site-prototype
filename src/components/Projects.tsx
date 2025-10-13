@@ -1,4 +1,5 @@
 import React from 'react';
+import unchainedLogoFull from '@/assets/unchained-logo-full.png';
 
 const Projects = () => {
   return (
@@ -11,12 +12,12 @@ const Projects = () => {
         </div>
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative">
-            <div className="text-center mb-8">
-              <div className="inline-block mb-4">
-                {/* Original content without the uploaded logo */}
-              </div>
-            </div>
+          <div className="relative flex justify-center items-start">
+            <img 
+              src={unchainedLogoFull} 
+              alt="Unchained Logo" 
+              className="w-full max-w-md"
+            />
           </div>
           
           <div className="space-y-6">
