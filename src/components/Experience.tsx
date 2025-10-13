@@ -11,6 +11,7 @@ const Experience = () => {
       company: "Flexprice",
       period: "Sep 2024 - Present · 1 yr 2 mos",
       location: "Gurugram, Haryana, India",
+      logo: null,
       description: [
         "Leading fund raise",
         "Financial planning, cash flow management, and unit economics",
@@ -24,6 +25,7 @@ const Experience = () => {
       company: "Unchained",
       period: "Apr 2021 - Present · 4 yrs 7 mos",
       location: "Gurugram, Haryana, India",
+      logo: unchainedLogo,
       description: [
         "Founded and scaled a non-profit focused on social impact, delivering programs that reached 5,000+ beneficiaries",
         "Created governance and finance frameworks, earning recognition from partner NGOs and regulatory bodies",
@@ -35,6 +37,7 @@ const Experience = () => {
       company: "Sahni Natarajan & Bahl · Full-time",
       period: "Jul 2022 - Jul 2025 · 3 yrs 1 mo",
       location: "Delhi, India",
+      logo: null,
       description: [
         "Led audits for Indian corporates and MNCs in FMCG and startup sectors",
         "Covered Finance & Accounts, P2P, O2C, I2C, Payroll, T&E, Distribution Centers, Revenue Validation, and Provident Funds",
@@ -58,16 +61,22 @@ const Experience = () => {
               className="bg-white rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow duration-300"
             >
               <div className="flex gap-8">
-                {/* Logo section - only for Unchained */}
-                {exp.company === "Unchained" && (
-                  <div className="hidden md:flex items-start flex-shrink-0">
+                {/* Logo section */}
+                <div className="hidden md:flex items-start flex-shrink-0">
+                  {exp.logo ? (
                     <img 
-                      src={unchainedLogo} 
-                      alt="Unchained Logo" 
+                      src={exp.logo} 
+                      alt={`${exp.company} Logo`} 
                       className="w-32 h-32 object-contain"
                     />
-                  </div>
-                )}
+                  ) : (
+                    <div className="w-32 h-32 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-lg flex items-center justify-center">
+                      <span className="text-3xl font-bold text-blue-600">
+                        {exp.company.charAt(0)}
+                      </span>
+                    </div>
+                  )}
+                </div>
                 
                 <div className="flex-1">
                   <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-6">
