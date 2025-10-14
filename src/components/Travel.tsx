@@ -1,5 +1,5 @@
-
 import React from 'react';
+import tungnathBikeImage from '@/assets/tungnath-bike.jpg';
 
 const Travel = () => {
   return (
@@ -49,8 +49,8 @@ const Travel = () => {
           
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=600&h=400&fit=crop"
-              alt="Mountain road trip"
+              src={tungnathBikeImage}
+              alt="Akhil on Royal Enfield at Tungnath"
               className="rounded-lg shadow-2xl w-full"
             />
             <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-white/20 rounded-full backdrop-blur-sm"></div>
