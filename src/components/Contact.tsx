@@ -50,21 +50,11 @@ const Contact = () => {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="flex-shrink-0 w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
-                    <Phone className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="text-lg font-semibold text-gray-900">Mobile Number</h4>
-                    <p className="text-gray-600">+91 8700710436</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-center space-x-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">akmishra1999@icloud.com</p>
+                    <p className="text-gray-600">Business@akhilmishra.in</p>
                   </div>
                 </div>
               </div>
