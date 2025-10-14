@@ -47,11 +47,11 @@ const Travel = () => {
             </div>
           </div>
           
-          <div className="relative">
+          <div className="relative h-full flex items-center">
             <img
               src={tungnathBikeImage}
               alt="Akhil on Royal Enfield at Tungnath"
-              className="rounded-lg shadow-2xl w-full"
+              className="rounded-lg shadow-2xl w-full h-full object-cover max-h-[600px]"
             />
             <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-white/20 rounded-full backdrop-blur-sm"></div>
             <div className="absolute -top-4 -right-4 w-16 h-16 bg-white/20 rounded-full backdrop-blur-sm"></div>
