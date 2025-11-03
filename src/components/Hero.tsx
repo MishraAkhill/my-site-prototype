@@ -17,7 +17,7 @@ const Hero = () => {
           <div className="flex items-center justify-center mb-8">
             <div className="h-1 w-16 bg-red-500 mr-4"></div>
             <p className="text-xl md:text-2xl text-gray-600 font-medium">
-              Business & Fundraising Consultant | Philanthropist | Adventurer
+              Chartered Accountant | Business & Fundraising Consultant | Philanthropist | Adventurer
             </p>
           </div>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-12 leading-relaxed">
